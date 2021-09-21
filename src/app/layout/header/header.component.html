@@ -1,0 +1,52 @@
+<div class="container position-sticky z-index-sticky top-0">
+  <div class="row">
+    <div class="col-12">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+        <div class="container-fluid">
+          <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " routerLink="/">
+              <img src="{{imagepath}}" class="logo_user"/>
+          </a>
+          <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+          </button>
+          <div class="collapse navbar-collapse ps" id="navigation">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link d-flex align-items-center me-2 active" aria-current="page"  routerLink="/" >
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2"  routerLink="/doctor" >
+                  Doctors
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" routerLink="/secretary" >
+                  Secretary
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2" routerLink="/dashboard" >
+                  Dashboard
+                </a>
+              </li>
+
+            </ul>
+            <ul class="navbar-nav d-lg-block d-none">
+              <li class="nav-item">
+                <a href="https://dmsegypt.net/" class="btn btn-sm btn-round mb-0 me-1 bg-gradient-dark">Our Website</a>
+              </li>
+            </ul>
+            <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+    </div>
+  </div>
+</div>
